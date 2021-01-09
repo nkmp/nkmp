@@ -1,0 +1,741 @@
+@charset "utf-8";
+html{
+	scroll-behavior: smooth
+}
+body{
+	font-size:15px;
+	padding: 0;
+	margin:0 auto;
+	background: #F4F2F3;
+/*	font-family: 'Roboto',sans-serif*/
+}
+body h3{
+	font-weight: 600
+}
+body h4{
+	font-weight: 600
+}
+/*---BUTTON*/
+.btn a{
+	text-decoration: none;
+	color:white
+}
+.btn a:hover{
+	color:black
+}
+.yellow-btn{
+	background: #F2C94C
+}
+.blue-btn{
+	background: #2F80ED;
+	color:white
+}
+/*---CUSTOM TEXT H3, P*/
+.blue-text{
+	color: #2F80ED
+}
+.red-text{
+	color:#F25252;
+	margin-right: 30px
+}
+.yellow-text{
+	color:#F2C94C
+}
+.darkgrey-text{
+	color:#555555
+}
+.lightergrey-text{
+	color:#9F9F9F
+}
+.lightgrey-text{
+	color:#777777
+}
+.black-text{
+	color:black
+}
+.bold-text{
+	color:black;
+	font-weight: 500
+}
+/*---CUSTOM TEXT h3, h4, p responsive*/
+@media screen and (max-width:768px){
+	h3{
+		font-size:22px;
+		line-height: 28px
+	}
+	h4{
+		font-size:18px !important
+	}
+	p{
+		font-size:14px
+	}
+}
+/*---CUSTOM H4*/
+.thumbnail .caption h4{
+	font-size:20px;
+}
+.thumbnail .caption a{
+	text-decoration: none;
+	color:black
+}
+.thumbnail .caption a:hover{
+	color:#F2C94C
+}
+/*---TOP BAR*/
+.top-bar{
+	background: #056CB6;
+	height:40px;
+	line-height: 40px;
+	color:white
+}
+.fleft{
+	float: left;
+	margin-left: 20px
+}
+.fright{
+	float:right;
+	margin-right: 20px
+}
+.navbar{
+	margin: 0;
+	min-height: 90px;
+	padding-top: 20px;
+}
+.navbar-default{
+/*	padding: 0*/
+}
+.navbar-default .navbar-brand{
+	padding: 0;
+	height:50px;
+	width: auto
+}
+.navbar-default .navbar-nav > li > a {
+	color: #666666;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+	color: #056CB6;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu {
+	background-color: #056CB6;
+	padding-top:0;
+	padding-bottom: 0;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+	color: white !important;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid white
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
+  color: white;
+  background-color: #F2C94C !important;
+}
+@media screen and (max-width:992px){
+	.navbar-default .navbar-brand{
+		padding-left: 290px
+	}
+}
+@media screen and (max-width:767px){
+	.navbar-default .navbar-brand{
+		padding-left: 15px
+	}
+}
+footer{
+	background: #2F80ED;
+	color:white;
+	min-height: 290px;
+	padding: 20px 0
+}
+.cachdong-ft-logo{
+	margin-top: 18px;
+}
+.cachdong-ft-p{
+	margin-top:30px;
+	margin-bottom: 30px
+}
+.btn-footer{
+	background: #F2C94C
+}
+.y-line{
+	width:130px;
+	height:3px;
+	background: #F2C94C;
+	border:none;
+	margin-left: 0px
+}
+.cachdong-ft-thgian{
+	margin-bottom: 20px
+}
+footer .nav li a{
+	text-decoration: none;
+	color:white;
+	padding-left: 0px;
+	padding-top: 0px
+}
+footer .nav li a:hover{
+	color:#F2C94C;
+	background: none
+}
+footer .icon-tin{
+	margin-right: 10px;
+	color:white
+}
+footer .icon-social{
+	margin-top: 10px;
+	margin-right:20px;
+	color:white
+}
+footer .icon-social:hover{
+	color:#F2C94C
+}
+.bottom-bar{
+	background: #F2C94C;
+	min-height:50px;
+	text-align: center;
+	line-height: 50px;
+	color:white
+}
+.bottom-bar p{
+	margin-bottom: 0
+}
+/*---ABOUT*/
+#about{
+	padding:80px 0
+}
+#about .about-img img{
+	width:100%
+}
+.row{
+/*	background: #FFE1E2*/
+}
+#about .about-text{
+	padding-top: 50px;
+/*	background: red*/
+}
+#about .about-text .icon-about {
+	color:#F25252;
+	margin-right: 10px
+}
+#about .about-text .about-out button{
+	margin-left: 20px
+}
+#about .cachdong-ab{
+	margin-bottom: 30px
+}
+@media screen and (max-width:992px){
+	#about{
+		padding:50px 0
+	}
+	#about .about-text{
+		padding-top: 0;
+		box-sizing: border-box
+	}
+	#about .cachdong-ab{
+		margin-bottom: 10px
+	}
+	#about h3{
+		margin-top: 0
+	}
+}
+@media screen and (max-width:767px){
+	#about{
+		padding: 30px 0;
+	}
+	#about .about-text{
+		margin-top: 30px
+	}
+}
+/*---GRAY-LINE*/
+.g-line{
+	background: #C4C4C4;
+	width: 100%;
+	height:12px;
+	margin: 0
+}
+/*---DICH VU*/
+#dichvu{
+/*	background: #FFEEEE;*/
+	padding-top: 45px;
+	padding-bottom: 70px
+}
+.cachdong-title{
+	margin-bottom: 20px
+}
+.section-title{
+	text-align: center;
+	margin-bottom: 40px;
+}
+/*---CUSTOM THUMBNAIL*/
+.thumbnail{
+	border: none
+}
+#dichvu .thumbnail{
+	padding: 30px 20px;
+	background: #F8FAF5;
+}
+.thumbnail img{
+	width: 100%
+}
+#dichvu .thumbnail .caption{
+	text-align: center;
+	padding: 0;
+	margin-top: 40px;
+/*	background: #FFFEE0*/
+}
+@media screen and (max-width:768px){
+	#dichvu{
+		padding-top:20px;
+		padding-bottom: 20px
+	}
+}
+/*---LI DO*/
+.row{
+/*	background: #FFD6D6*/
+}
+#lido{
+	min-height:480px;
+	background-image: url(../img/about-pic-2.png);
+	background-repeat: no-repeat;
+	padding-top: 70px
+}
+#lido .nd-lido{
+	margin-bottom: 30px
+}
+@media screen and (max-width:786px){
+	#lido{
+		min-height:310px;
+		padding-top: 20px;
+		padding-bottom: 10px;
+	}
+	#lido .nd-lido{
+		margin-bottom: 20px
+	}
+}
+/*---HINH ANH*/
+#hinhanh{
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+#hinhanh .nd-hinhanh img{
+	width:100%
+}
+#hinhanh .btn-hinhanh{
+/*	background: red;*/
+	height: 40px;
+	width:100px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 70px
+}
+@media screen and (max-width:768px){
+	#hinhanh{
+		padding: 30px 0 50px
+	}
+	#hinhanh .nd-hinhanh{
+		margin-bottom: 30px
+	}
+	#hinhanh .btn-hinhanh{
+		margin-top:30px
+	}
+}
+/*---CAM NHAN*/
+.bg-trang{
+	background: #F8FAF5
+}
+#camnhan .carousel-inner .item{
+	min-height: 420px;
+	
+}
+#camnhan .carousel-caption {
+	color: #555555;
+	text-shadow: none;
+}
+#camnhan .carousel-caption h3{
+	color: #2F80ED;
+	margin-bottom: 30px
+}
+#camnhan .carousel-caption p{
+	margin-bottom: 20px
+}
+.font-italic{
+	font-style: italic
+}
+#camnhan .carousel-caption img{
+	margin-bottom: 20px
+}
+#camnhan .carousel-indicators li {
+	background-color: rgba(0, 0, 0, 0);
+	border: 1px solid #C4C4C4;
+}
+#camnhan .carousel-indicators .active {
+	background-color: #F2C94C;
+}
+/*---TIN TUC*/
+#tintuc{
+	padding:70px 0;
+/*	background: #FFE1E2*/
+}
+#tintuc .thumbnail{
+	background: none
+}
+@media screen and (max-width:768px){
+	#tintuc{
+		padding: 40px 0 30px;
+	}
+}
+/*---LICH HEN*/
+#lichhen{
+	padding: 30px 0 50px;
+	margin-bottom: 100px;
+}
+#lichhen .nd-lichhen button{
+	margin-top: 25px
+}
+@media screen and (max-width:768px){
+	#lichhen{
+/*		background: #E8E8E8;*/
+		margin-bottom: 70px
+	}
+}
+/*---BANNER*/
+#banner{
+	background-image: url(../img/pageheader.png);
+	min-height: 350px;
+	color:white
+}
+.nd-banner{
+	padding-top:50px
+}
+.banner-title{
+	font-weight: 700;
+	font-size:24px;
+	margin-bottom: 20px
+}
+.banner-text{
+	font-size: 20px
+}
+.banner-btn{
+	margin-top:50px
+}
+/*---SIDE BAR*/
+/*PADDING SIDE BAR - cot 4*/
+.nd-sidebar-out{
+	margin-top:70px
+}
+@media screen and (max-width:767px){
+	.nd-sidebar-out{
+		margin:30px 0 60px;
+		
+	}
+}
+.nd-sidebar{
+	background: #F8FAF5;
+	padding:15px 30px;
+	box-sizing: border-box;
+/*	background: red*/
+}
+.input-group{
+	padding: 30px 0
+}
+@media screen and (max-width:768px){
+	.input-group{
+		padding: 10px 0
+	}
+}
+.cachdong-sidebar{
+	margin-top: 30px
+}
+.nd-sidebar .nav li a{
+	text-decoration: none;
+	color:#555555;
+	padding-left: 0px;
+	padding-top: 10px
+}
+.nd-sidebar .nav .fa-chevron-circle-right{
+	color:#F25252;
+	margin-right: 10px
+}
+.nd-sidebar .nav li a:hover .fa-chevron-circle-right{
+	color:#F2C94C
+}
+/*---PAGE-TIN TUC*/
+.g-line-small{
+	width:100%;
+	height:2px;
+	background: #CCCCCC;
+	margin:40px 0 50px
+}
+.g-line-smaller{
+	width:100%;
+	height:2px;
+	background: #CCCCCC;
+	margin:50px 0 10px
+}
+/*padding trang TINTUC va TINTUC-CON - cot 8 */
+.nd-page-tintuc{
+	padding: 70px 0 70px;
+/*	background: blue*/
+}
+@media screen and (max-width:767px){
+	.nd-page-tintuc{
+		padding-top: 30px;
+		padding-bottom: 30px
+	}
+}
+.nd-page-tintuc .thumbnail{
+	background: none
+}
+/*button cua form thong tin tu van*/
+.nd-page-tintuc .btn{
+	margin-top: 30px
+}
+@media screen and (max-width:768px){
+	.nd-page-tintuc .btn{
+		margin-top: 10px
+	}
+}
+.nd-page-tintuc .btn a{
+	color:white
+}
+.nd-page-tintuc .btn:hover{
+	background: #F2C94C
+}
+.nd-page-tintuc .thumbnail .caption h4{
+	margin-top:30px;
+	font-weight: 600
+}
+.black-text{
+	margin-bottom:30px;
+/*	font-weight: 500*/
+}
+.slogan{
+	padding: 30px 45px;
+	background: #F1F7EF
+}
+.slogan-text{
+	font-size: 20px;
+	font-style: italic;
+	margin-bottom: 20px
+}
+.pager li > a,
+.pager li > span {
+  background-color: #666666;
+  border: none;
+  border-radius: 4px;
+	margin: 0 10px;
+	color:white
+}
+.pager li > a:hover,
+.pager li > a:focus {
+  text-decoration: none;
+  background-color: #2F80ED;
+	color:white
+}
+/*---PGAE TIN-TUC TRANG-CON*/
+.quote{
+	margin-left: 20px;
+	padding: 0px 0 0px 30px;
+	border-left: 7px solid #E7E7E7;
+	color:#777777;
+/*	background: red*/
+}
+.quote h3{
+	font-style: italic;
+	line-height: 35px;
+	font-weight: 400
+}
+@media screen and (max-width:992px){
+	.quote h3{
+		font-size:20px;
+		line-height: 30px
+	}
+}
+@media screen and (max-width:767px){
+	.quote h3{
+		font-size:18px;
+		line-height: 28px
+	}
+	.quote{
+	padding: 0px 0 0px 20px;
+	}
+}
+/*TIN TUC - BAI VIET*/
+.baiviet{
+	margin-bottom: 60px;
+	min-height: 130px;
+/*	background: #FFDCDD*/
+}
+@media screen and (max-width:767px){
+	.baiviet{
+		min-height: 220px
+	}
+}
+.nd-baiviet a{
+	color:#777777
+}
+.nd-baiviet a:hover{
+	color:#F2C94C
+}
+.baiviet h3{
+	margin-bottom: 30px
+}
+/*TIN TUC - BINH LUAN*/
+.binhluan{
+/*	background: #FFDCDD*/
+}
+.binhluan h3{
+	margin-bottom: 30px
+}
+.binhluan .media{
+	margin-bottom: 60px
+}
+.binhluan .btn{
+	margin-top: 10px
+}
+/*FORM*/
+.form-tuvan h4{
+	margin-bottom: 30px
+}
+.bluan-btn{
+	margin-top:8px;
+}
+.cachdong-form{
+	margin-bottom: 20px
+}
+.form-btn button{
+	margin-top: 0px
+}
+/*---PAGE VE-CHUNG-TOI*/
+#bacsi{
+	padding:70px 0;
+/*	background: #FFE1E2*/
+}
+#bacsi .thumbnail{
+	background: none;
+	text-align: center
+}
+#bacsi .thumbnail img{
+	width:50%
+}
+#bacsi .caption h4{
+	font-size:18px
+}
+@media screen and (max-width:768px){
+	#bacsi .thumbnail img{
+		width:50%
+	}
+	#bacsi{
+		padding:40px 0 20px;
+	}
+}
+/*---PAGE KH - Cam nhan*/
+#page-camnhan{
+	padding: 80px 0;
+}
+.nd-page-camnhan{
+	text-align: center;
+	margin:30px 0;
+}
+.cachdong-img{
+	margin:10px 0 20px;
+}
+@media screen and (max-width:768px){
+	#page-camnhan{
+		padding: 40px 0
+	}
+}
+/*---PAGE KH - Hinh anh*/
+#page-hinhanh{
+	padding: 80px 0
+}
+.nd-page-hinhanh{
+	margin:30px 0;
+}
+#page-hinhanh .nd-page-hinhanh img{
+	width:100%
+}
+@media screen and (max-width:768px){
+	#page-hinhanh{
+		padding: 40px 0 
+	}
+	.nd-page-hinhanh{
+		margin:20px 0;
+	}
+}
+/*---PAGE Dich vu*/
+#page-dichvu{
+	padding: 100px 0;
+}
+#page-dichvu .thumbnail{
+	text-align: center;
+	padding: 30px 20px;
+	background: #F8FAF5;
+}
+#page-dichvu .thumbnail .caption{
+/*	text-align: center;*/
+	padding: 0;
+	margin-top: 40px;
+/*	background: #FFFEE0*/
+}
+@media screen and (max-width:768px){
+	#page-dichvu{
+		padding:40px 0;
+	}
+}
+/*---PAGE DICH-VU RANG-SU*/
+.nd-page-rangsu{
+	padding: 70px 0
+}
+.nd-page-rangsu .thumbnail{
+	background: none
+}
+#page-rangsu{
+	padding: 70px
+}
+#page-rangsu .quote{
+	margin-bottom: 50px
+}
+@media screen and (max-width:768px){
+	#page-rangsu{
+		padding: 20px 0 60px;
+	}
+	.nd-page-rangsu{
+		padding: 30px 0
+	}
+}
+/*---PAGE LIEN HE*/
+#page-lienhe{
+	padding: 100px 0 70px
+}
+#page-lienhe .nav li a:hover{
+	color:#F2C94C;
+	background: none
+}
+#page-lienhe .icon-tin{
+	margin-right: 10px;
+	color:#F2C94C
+}
+.nd-page-lienhe{
+	margin-bottom: 80px;
+}
+.cachdong-lienhe{
+	margin-bottom: 40px
+}
+@media screen and (max-width:992px){
+	#page-lienhe{
+		padding: 60px 0 30px
+	}
+	.nd-page-lienhe{
+	margin-bottom: 60px;
+	}
+}
+@media screen and (max-width:767px){
+	#page-lienhe{
+		padding: 20px 0;
+	}
+	.nd-page-lienhe{
+		margin-bottom: 40px;
+	}
+}
